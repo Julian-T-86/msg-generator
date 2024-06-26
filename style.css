@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(0.25turn, #d02219, #eed308, #261bf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+
+}
+
+#button {
+    color: aliceblue;
+    font-size: 2rem;
+    background-color: brown;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#generatedMsg {
+    height: 18rem;
+    width: 25rem;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    align-content: center;
+
+}
+
+#button:hover {
+    font-size: 2.25rem;
+    background-color: white;
+    color: black;
+}
+
+#button:active {
+    box-shadow: 0rem 0rem 2rem 1rem rgb(80, 189, 72);
+
+}
