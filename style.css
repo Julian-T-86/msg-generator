@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(0.25turn, #d02219, #eed308, #261bf0);
+    background-image: url(./Inspirational-Backgrounds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +13,10 @@ body {
 
 #button {
     color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(184, 17, 134);
     font-size: 2rem;
     background-color: brown;
+    opacity: 0.6;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -19,21 +24,19 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 
 #generatedMsg {
-    padding: 1%;
+    padding: 2%;
     height: 18rem;
     width: 25rem;
-    border: 0.1rem solid black;
     margin: 2rem;
+    border-radius: 4%;
     color: rgb(47, 9, 9);
     font-size: 2rem;
-    display: flex;
-    align-content: center;
-    box-shadow: 0rem 0rem 0.5rem 0.5rem rgb(56, 2, 50);
-    background: linear-gradient(to bottom, rgba(165, 42, 42, 0.5), rgb(157, 138, 254))
-
+    box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(95, 55, 91, 0.5);
+    background: linear-gradient(to bottom, rgba(225, 226, 203, 0.5), rgba(168, 166, 179, 0.2))
 }
 
 #button:hover {

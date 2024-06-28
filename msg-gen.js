@@ -44,7 +44,9 @@ const quotes = [
 const getRandomPerson = myArr => {
 
     let randIndx = Math.floor(Math.random() * myArr.length);
-    return `Quote of the day:\n ${myArr[randIndx].quote}\nby ${myArr[randIndx].author}`;
+    let quote = myArr[randIndx].quote + "\n\n" + myArr[randIndx].author;
+    quote = quote.replace(/\n/g, "<br>")
+    return quote;
 }
     
 document.addEventListener("DOMContentLoaded", () => {
